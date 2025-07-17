@@ -2,12 +2,12 @@ main:
   - title: "Home"
     url: /
   - title: "About"
-    url: /about/
+    url: /about/about/
   - title: "Teaching"
     url: /teaching/teaching/
   - title: "Publications"
-    url: /publications/
+    url: /publications/publications/
   - title: "Talks"
-    url: /talks/
+    url: /talks/talks/
   - title: "CV"
-    url: /cv/
+    url: /cv/cv/
