@@ -20,6 +20,14 @@ My expertise lies at the intersection of conservation planning, remote sensing, 
 
 Here's a live demo of my invasive species decision support app:
 
+<iframe src="https://cporosus24.shinyapps.io/FWC_tool_climate_scenarios/"
+        width="100%"
+        height="650"
+        style="border: none;">
+</iframe>
+
+As well as a live demo of some commumity ecology work: 
+
 <iframe src="https://cporosus24.shinyapps.io/beetle_app/"
         width="100%"
         height="650"
