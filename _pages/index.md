@@ -1,8 +1,10 @@
 ---
-title: "About"
-permalink: /about/
 layout: single
+title: "Luke Evans"
 author_profile: true
+permalink: /
+---
+
 
 ---
 Welcome! I’m Luke Evans — a conservation ecologist using quantitative tools to tackle pressing biodiversity challenges. Whether it’s modeling crocodile translocations or building decision tools for invasive species management, I’m passionate about turning science into action.
