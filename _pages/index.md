@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Luke Evans"
+title: "About my research"
 author_profile: true
 permalink: /
 ---
