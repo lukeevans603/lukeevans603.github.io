@@ -5,6 +5,11 @@ author_profile: true
 permalink: /
 ---
 
+<img src="{{ site.baseurl }}/images/croc_tagging.jpg" alt="Banner image" style="width:100%; max-height:400px; object-fit: cover; margin-bottom: 2rem;" />
+
+# Welcome!
+
+I’m Dr. Luke Evans, an ecologist and conservation scientist focused on applying quantitative tools to real-world biodiversity challenges.
 
 ---
 Welcome! I’m Luke Evans — a conservation ecologist using quantitative tools to tackle pressing biodiversity challenges. Whether it’s modeling crocodile translocations or building decision tools for invasive species management, I’m passionate about turning science into action.
