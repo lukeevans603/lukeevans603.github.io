@@ -5,7 +5,7 @@ author_profile: true
 permalink: /
 ---
 
-<img src="{{ site.baseurl }}/images/croc_tagging.jpg" alt="Banner image" style="width:100%; max-height:400px; object-fit: cover; margin-bottom: 2rem;" />
+<img src="{{ site.baseurl }}/images/croc_tagging.png" alt="Banner image" style="width:100%; max-height:400px; object-fit: cover; margin-bottom: 2rem;" />
 
 # Welcome!
 
