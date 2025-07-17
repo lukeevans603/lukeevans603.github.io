@@ -1,20 +1,26 @@
 ---
-title: "Teaching experience 1"
-collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+I have taught and mentored students at every academic level, from elementary outreach to Ph.D. supervision. My core teaching interests include:
 
-Heading 1
-======
+- Quantitative & Spatial Ecology
+- Invasion Science & Risk Assessment
+- Remote Sensing Applications
+- Field Ecology & Techniques
 
-Heading 2
-======
+**University Teaching Roles:**
+- *Introduction to R* (Cardiff University) – Co-instructor  
+- *Remote Sensing & Wildlife* (Arizona State University) – Guest Lecturer  
+- *Global Change Biology* – Undergraduate TA
 
-Heading 3
-======
+**Field-Based Teaching:**
+- Led over 80 international field courses (UK, US, Malaysia, Singapore)
+- Field teaching for Cardiff University, Oregon State, Leiden University, and more
+
+**Graduate Mentorship:**
+- Supervised multiple Ph.D. and M.Sc. students
+- Focus on statistical ecology, habitat modeling, and field-based conservation
