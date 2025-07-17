@@ -246,13 +246,10 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+    
+#analytics
+analytics:
+  provider: "google-analytics-4"
+  google:
+    tracking_id: "G-E0PXRZGFT4"
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0PXRZGFT4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-E0PXRZGFT4');
-</script>
