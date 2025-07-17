@@ -82,10 +82,6 @@ social:
   name                   : Luke Evans
   links: []
 
-# Analytics
-analytics:
-  provider               : "false"
-
 # Reading Files
 include:
   - .htaccess
