@@ -1,117 +1,164 @@
 ---
-title: "CV"
-permalink: /cv/
 layout: single
+title: "Curriculum Vitae"
+permalink: /cv/
 author_profile: true
 ---
 
-## Curriculum Vitae
+Below is a detailed overview of my professional experience. For a downloadable version, [click here](../files/Evans_LJ_cv_2025.pdf).
 
-<details open>
-<summary><strong>Current Position</strong></summary>
+---
 
-**Postdoctoral Researcher – USGS/University of Florida (Feb 2025 – Present)**  
-Protecting shorebird habitat in Florida through decision-analytic closures and modeling translocation effects on American crocodile viability.
+## 🧑‍🏫 Employment History
+<details>
+<summary>Click to expand</summary>
+
+**Postdoctoral Researcher**  
+**Feb 2025 – Present**  
+*USGS / University of Florida, Florida Cooperative Fish and Wildlife Research Unit*  
+- Protecting vital shorebird nesting/migratory habitat.  
+- Assessing translocation impacts on crocodile population viability.
+
+**Postdoctoral Researcher**  
+**Jan 2021 – Feb 2025**  
+*University of Florida*  
+- Developed decision support tools for invasive species.  
+- Remote sensing interface for Everglades/Florida-wide tools.
+
+**Postdoctoral Researcher**  
+**2019 – 2020**  
+*Arizona State University, Global Discovery and Conservation Science*  
+- Remote sensing for biodiversity metrics and elephant conservation.
+
+**Postdoctoral Researcher**  
+**2017 – 2019**  
+*Stanford University – Carnegie Institution*  
+- Created 400k ha protected area in Sabah using LiDAR, biodiversity models.
+
+**Other Roles:**  
+- **Technical Manager** – Danau Girang Field Centre  
+- **Crocodile Conservation Manager** – Sabah Wildlife Dept
 
 </details>
 
-<details>
-<summary><strong>Previous Positions</strong></summary>
+---
 
-- **Postdoc – Univ. of Florida (2021–2025):** Invasive species risk assessment, remote sensing tools, decision support development.  
-- **Postdoc – Arizona State Univ. (2019–2020):** Remote sensing for biodiversity and conservation planning.  
-- **Postdoc – Stanford/Carnegie (2017–2019):** LiDAR for endangered species protection in Sabah.  
-- **Crocodile Conservation Manager – Sabah (2016–2018):** State-wide crocodile monitoring, harvest models, CITES assessments.  
-- **Technical Manager – Danau Girang Field Centre (2018–2019):** Staff and student supervision, technical assistance.
+## 🎓 Education
+<details>
+<summary>Click to expand</summary>
+
+**Ph.D. in Biosciences**  
+*Cardiff University, 2012–2016*  
+- Estuarine crocodile ecology, movement, nesting, and conflict.
+
+**MRes in Biosciences**  
+*Cardiff University, 2010–2011*  
+- Crocodile population dynamics in fragmented landscapes.
+
+**BSc in Biology**  
+*Cardiff University, 2007–2010*
 
 </details>
 
-<details>
-<summary><strong>Education</strong></summary>
+---
 
-- **Ph.D. Ecology** – Cardiff University (2012–2016)  
-  Focus: Crocodile ecology, human conflict, genetics in Sabah  
-- **M.Res. Biology** – Cardiff University (2010–2011)  
-  Population ecology of *Crocodylus porosus*  
-- **B.Sc. Biology** – Cardiff University (2007–2010)
+## 📚 Publications
+<details>
+<summary>Click to expand</summary>
+
+See [Publications](/publications/) for a full list. Select recent ones:
+
+1. Fredstone et al. (in press). *Trends in Ecology & Evolution*  
+2. Evans et al. (under review). *Journal of Biogeography*  
+3. Evans et al. (2024). *Frontiers in Ecology and the Environment*  
+4. Klinges et al. (2024). *Global Ecology and Biogeography*  
+5. Evans et al. (2020). *Global Ecology and Conservation*  
+6. Evans et al. (2018). *Biological Conservation*  
 
 </details>
 
-<details>
-<summary><strong>Research Interests</strong></summary>
+---
 
-- Quantitative ecology  
-- Remote sensing  
-- Invasion science  
-- Structured decision-making  
-- Conservation planning  
+## 🛠️ Decision Support Tools & White Papers
+<details>
+<summary>Click to expand</summary>
+
+- Invasion Risk Tool – FWC (2023, Implemented)  
+- Everglades Restoration Tool – DOI (2024, Implemented)  
+- Climate Futures for Invasives – SECASC (2022, Implemented)  
+- Crocodile Population Modeling – Malaysia (2021, Implemented)
 
 </details>
 
-<details>
-<summary><strong>White Papers & Tools</strong></summary>
+---
 
-- Invasion risk tool (FWC, implemented)  
-- Everglades restoration tool (DOI, implemented)  
-- Crocodile population modeling (Sabah)  
-- Climate adaptation & invasive risk (SECASC)
+## 🗺️ Grants
+<details>
+<summary>Click to expand</summary>
+
+- Florida Wildlife Conservation Commission (PI, $22,605)  
+- US DOI (co-PI, $89,846)  
+- Ocean Park HK (Major Collaborator, ~$400,000)  
+- Total: ~$750,000+
 
 </details>
 
-<details>
-<summary><strong>State Management Plans</strong></summary>
+---
 
-- Proboscis monkey (EN)  
-- Bornean banteng (CR)  
-- Sunda clouded leopard (VU)  
-- Estuarine crocodile (LC)  
+## 👨‍🏫 Teaching & Mentorship
+<details>
+<summary>Click to expand</summary>
+
+### Teaching Interests:
+- Quantitative/Spatial Ecology, Invasion Science  
+- Remote Sensing, Conservation Biology  
+
+### Course Teaching:
+- R, Data Analysis, Global Change Biology (Cardiff)  
+- Remote Sensing Guest Lecturer (ASU)  
+
+### Field Courses:
+- Led >80 field courses (US, UK, Germany, China, Malaysia)
+
+### Mentoring:
+- Supervised 2 PhDs, 3 Masters, 30+ undergraduates
 
 </details>
 
-<details>
-<summary><strong>Grants & Funding (~$750k)</strong></summary>
+---
 
-- Florida FWC (PI) – $22,605  
-- US Dept. Interior (co-PI) – $89,846  
-- FWC (co-PI) – $104,302  
-- Ocean Park – ~$400k  
-- Croc Survey – ~$100k  
-- NGOs: Columbus Zoo, Chester Zoo, IUCN
+## 📣 Conference Presentations
+<details>
+<summary>Click to expand</summary>
+
+- UF Invasion Science Conference (2024)  
+- Species on the Move (2023)  
+- NAISMA (2023)  
+- Heart of Borneo (2018)  
+- South East Asia Rainforest Research Partnership (2017)
 
 </details>
 
-<details>
-<summary><strong>Teaching & Mentoring</strong></summary>
+---
 
-- TA & guest lecturer: Cardiff, ASU  
-- >80 field courses (US, UK, EU, Asia)  
-- Mentored: 2 PhD, 3 MS, 30+ undergrads  
-- Topics: R, remote sensing, mixed models, field ecology  
+## 📰 Outreach & Media
+<details>
+<summary>Click to expand</summary>
+
+- Featured in Animal Planet & Mongabay  
+- Local and international media  
+- Public engagement in Malaysian schools/villages
 
 </details>
 
+---
+
+## 👥 Professional Activities
 <details>
-<summary><strong>Publications</strong></summary>
+<summary>Click to expand</summary>
 
-20 peer-reviewed articles in journals including:  
-**Biological Conservation**, **Frontiers in Ecology**, **Global Ecology & Biogeography**, **PLOS ONE**, **Remote Sensing in Ecology & Conservation**, etc.  
-*Full list available on [Google Scholar](https://scholar.google.com/citations?user=9jYlHVgAAAAJ&hl=en)*
-
-</details>
-
-<details>
-<summary><strong>Conferences & Workshops</strong></summary>
-
-Presented at: NAISMA, UF Risk Workshop, Species on the Move, Heart of Borneo, IUCN-SCC, and more.  
-Organizer of UF and SECASC invasive species workshops (2022–2024)
-
-</details>
-
-<details>
-<summary><strong>Professional Activities</strong></summary>
-
-- Regional Vice Chair – IUCN Crocodile Specialist Group (2015–present)  
-- Peer reviewer for 10+ journals including *PNAS*, *Nature Climate Change* and *Global Change Biology*  
-- Media engagement: Animal Planet, Mongabay, Borneo Jungle Diaries
+- **Regional Vice Chair**, IUCN Crocodile Specialist Group  
+- **Reviewer**: *Nature Climate Change*, *GCB*, *PeerJ*, *Frontiers*  
+- **Search Committee Member** – Intern placements (Borneo)
 
 </details>
