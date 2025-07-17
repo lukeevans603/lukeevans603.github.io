@@ -1,26 +1,248 @@
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 title                    : "Luke Evans"
 title_separator          : "-"
 name                     : &name "Luke Evans"
 description              : &description "Ecologist | Quantitative Conservation | Decision Support"
-url                      : "https://lukeevans603.github.io"  # <-- Replace with your actual GitHub Pages URL
-baseurl                  : "" 
-repository               : "lukeevans603/lukeevans603.github.io"  # <-- Replace with your actual repo name
+url                      : "https://lukeevans603.github.io"
+baseurl                  : ""
+repository               : "lukeevans603/lukeevans603.github.io"
 
+# Site Author - sidebar details
 author:
-  avatar           : "profile.png"  # Upload this to /images/ or replace with your actual image
+  avatar           : "profile.png"
   name             : "Luke Evans"
   pronouns         : "he/him"
   bio              : "Quantitative ecologist focused on invasive species, structured decision-making, and conservation science."
   location         : "Gainesville, FL USA"
   employer         : "University of Florida"
-
-  email            : "lukeevans@ufl.edu"  # <-- Replace with your email
-  googlescholar    : "https://scholar.google.com/citations?user=9jYlHVgAAAAJ&hl=en"  # Replace with your profile
-  orcid            : "https://orcid.org/0000-0002-6618-4733"  # Replace with your ORCID
-  pubmed           : 
+  email            : "lukeevans@ufl.edu"
+  googlescholar    : "https://scholar.google.com/citations?user=9jYlHVgAAAAJ&hl=en"
+  orcid            : "https://orcid.org/0000-0002-6618-4733"
+  pubmed           :
   github           : "lukeevans603"
   linkedin         : "https://www.linkedin.com/in/luke-evans-17b16a27/"
- # twitter          : "yourhandle"  # If applicable
+  twitter          :
+
+# Publication Category Headings
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
+
+# Site Settings
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+
+comments:
+  provider               :
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601"
+
+atom_feed:
+  hide                   : false
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+og_image                 :
+og_description           :
+social:
+  type                   : Person
+  name                   : Luke Evans
+  links: []
+
+# Analytics
+analytics:
+  provider               : "false"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Etc/UTC
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
