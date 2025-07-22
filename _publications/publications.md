@@ -7,7 +7,7 @@ excerpt: ''
 date: 2025-12-31
 venue: 'TRENDS IN ECOLOGY AND EVOLUTION'
 paperurl: ''
-citation: 'Fredstone, A.*, Tingley, M.*, Neate-Clegg M., Evans, L. J., .... Scheffers, B., (IN PRESS – TRENDS IN ECOLOGY AND EVOLUTION). Reimagining species on the move across space and time. Manuscript Available.'
+citation: 'Fredstone, A.*, Tingley, M.*, Neate-Clegg M., Evans, L. J., .... Scheffers, B., (2025). Reimagining species on the move across space and time. Trends in Ecology and Evolution. '
 ---
 
 
