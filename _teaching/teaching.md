@@ -5,7 +5,6 @@ layout: single
 author_profile: true
 ---
 
-
 I have taught and mentored students at every academic level, from elementary outreach to Ph.D. supervision. My core teaching interests include:
 
 - Quantitative & Spatial Ecology
