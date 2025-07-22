@@ -22,6 +22,8 @@ I currently serve as a Postdoctoral Researcher with the University of Florida, w
 
 My expertise lies at the intersection of conservation planning, remote sensing, and quantitative ecology, and I'm passionate about translating complex science into actionable outcomes.
 
+<img src="{{ site.baseurl }}/images/ED1DFF1B-1320-40FE-97D4-B236D34AC9D1_1_105_c.jpeg" alt="Banner image" style="width:100%; max-height:400px; object-fit: cover; margin-bottom: 2rem;" />
+
 
 Here's a live demo of my invasive species decision support app:
 
