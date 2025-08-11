@@ -9,23 +9,15 @@ permalink: /
 
 # Welcome!
 
-I’m Dr. Luke Evans, an ecologist and conservation scientist focused on applying quantitative tools to real-world biodiversity challenges.
+I am Dr.&nbsp;Luke&nbsp;J.&nbsp;Evans, a quantitative ecologist and conservation scientist at the University of Florida and the U.S.&nbsp;Geological Survey. My work combines remote sensing, structured decision‑making and field ecology to address biodiversity challenges—from protecting migratory shorebirds and crocodilians in Florida to managing invasive species. Whether applying structured decision‑making to enhance conservation or building decision‑support tools for invasive species management, I'm passionate about turning science into action.
 
----
-Welcome! I’m Luke Evans — a conservation ecologist using quantitative tools to tackle pressing biodiversity challenges. Whether it’s modeling crocodile translocations or building decision tools for invasive species management, I’m passionate about turning science into action.
+Before joining UF and USGS, I held postdoctoral appointments at Arizona State University, Stanford University and Cardiff University, where I developed LiDAR‑based biodiversity metrics, built habitat connectivity models and contributed to establishing a 400,000‑ha protected area in Malaysian Borneo【33390144944205†L29-L38】. I earned my Ph.D., M.Res. and B.Sc. in Ecology from Cardiff University, focusing on Bornean orangutan habitat use, remote‑sensing‑based biodiversity mapping and botanical sciences【33390144944205†L51-L60】.
 
----
-
-As an ecologist and conservation scientist focused on applying quantitative tools to real-world biodiversity challenges. My work spans from modeling translocation effects on American crocodile populations to building decision support tools for invasive species management.
-
-I currently serve as a Postdoctoral Researcher with the University of Florida, where I apply structured decision-making to improve conservation outcomes for shorebirds and crocodilians in Florida. Previously, I held research appointments at Stanford, Arizona State, and Cardiff University, contributing to projects involving LiDAR-based biodiversity mapping, habitat connectivity, and wildlife conservation in Malaysian Borneo.
-
-My expertise lies at the intersection of conservation planning, remote sensing, and quantitative ecology, and I'm passionate about translating complex science into actionable outcomes.
+My research has been published in journals such as *Trends in Ecology & Evolution*, *Journal of Biogeography*, *Frontiers in Ecology and the Environment*, *Global Ecology and Biogeography* and *Biological Conservation*【33390144944205†L70-L78】. According to Google Scholar, my work has been cited over 660 times and my h‑index is 13.
 
 <img src="{{ site.baseurl }}/images/ED1DFF1B-1320-40FE-97D4-B236D34AC9D1_1_105_c.jpeg" alt="Banner image" style="width:100%; max-height:400px; object-fit: cover; margin-bottom: 2rem;" />
 
-
-Here's a live demo of my invasive species decision support app:
+Here's a live demo of my invasive species decision-support app:
 
 <iframe src="https://cporosus24.shinyapps.io/FWC_tool_climate_scenarios/"
         width="100%"
@@ -33,7 +25,7 @@ Here's a live demo of my invasive species decision support app:
         style="border: none;">
 </iframe>
 
-As well as a live demo of some commumity ecology work: 
+As well as a live demo of some community ecology work:
 
 <iframe src="https://cporosus24.shinyapps.io/beetle_app/"
         width="100%"
