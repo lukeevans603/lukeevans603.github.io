@@ -1,0 +1,93 @@
+/* Custom styles to give the site a sleek, high‑tech feel */
+
+/* Import a modern sans‑serif font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+/* Base typography and colours */
+body {
+  background-color: #0a192f;
+  color: #ccd6f6;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Links */
+a {
+  color: #64ffda;
+  text-decoration: none;
+}
+a:hover {
+  color: #00a9a5;
+  text-decoration: underline;
+}
+
+/* Navigation bar styles */
+.masthead {
+  background-color: #0a192f;
+  border-bottom: 1px solid #112240;
+}
+.masthead a {
+  color: #ccd6f6 !important;
+  font-weight: 500;
+}
+.masthead a:hover {
+  color: #64ffda !important;
+}
+
+/* Page titles and headings */
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: #ccd6f6;
+}
+
+/* Improve readability of paragraphs */
+.page__content p {
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+/* Footer styling */
+footer {
+  background-color: #0a192f;
+  color: #8892b0;
+  border-top: 1px solid #112240;
+}
+footer a {
+  color: #64ffda;
+}
+footer a:hover {
+  color: #00a9a5;
+}
+
+/* Rounded corners for images */
+img {
+  border-radius: 4px;
+}
+
+/* Cards or notice boxes for additional sections */
+.notice,
+.card {
+  background-color: #112240;
+  border-left: 4px solid #64ffda;
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+  border-radius: 4px;
+  color: #ccd6f6;
+}
+
+/* Highlight call‑to‑action buttons */
+.btn,
+button {
+  background-color: #64ffda;
+  color: #0a192f;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+.btn:hover,
+button:hover {
+  background-color: #00a9a5;
+  color: #0a192f;
+}
