@@ -79,7 +79,7 @@ Below is a detailed overview of my professional experience. For a downloadable v
 
 For a full list, see the [Publications](/publications/) page. Selected recent works:  
 
-1. **Fredstone, A.\*, Tingley, M.\*, Neate‑Clegg, M., Evans, L. J., … Scheffers, B. R. (2025).** Reimagining species on the move across space and time. *Trends in Ecology & Evolution, 40*(7), 929–638.  
+1. **Fredston, A.\*, Tingley, M.\*, Neate‑Clegg, M., Evans, L. J., … Scheffers, B. R. (2025).** Reimagining species on the move across space and time. *Trends in Ecology & Evolution, 40*(7), 629-638.  
 2. **Evans, L. J., Baecher, J. A., Scheffers, B. R. (2024).** Invasive risk posed by the pet trade. *Frontiers in Ecology and the Environment*, e2825.  
 3. **Klinges, D. H., Baecher, J. A., Lembrechts, J. J., Maclean, I. M., Lenoir, J., Greiser, C., Ashcroft, M., Evans, L. J., … Scheffers, B. R. (2024).** Proximal microclimate: Moving beyond spatiotemporal resolution improves ecological predictions. *Global Ecology & Biogeography, 33*(9), e13884.  
 4. **Evans, L. J., Goossens, B., Davies, A. B., Reynolds, G., Asner, G. P. (2020).** Natural and anthropogenic drivers of Bornean elephant movement strategies. *Global Ecology & Conservation, 22*, e00906.  
@@ -160,7 +160,7 @@ Quantitative & spatial ecology; invasion science; remote sensing; climate change
 
 ---
 
-## 🛰 Outreach & Media
+## 📣 Outreach & Media
 <details>
 <summary>Click to expand</summary>
 
