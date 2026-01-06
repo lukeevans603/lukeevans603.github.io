@@ -95,3 +95,39 @@ button:hover {
   background-color: #00a9a5;
   color: #0a192f;
 }
+
+/* Enhance collapsible CV sections */
+
+/* Style the summary element */
+details summary {
+  font-weight: 600;
+  cursor: pointer;
+  color: #ccd6f6;
+  transition: color 0.3s ease;
+  list-style: none;
+}
+
+/* Hide default arrow */
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Add custom arrow indicator */
+details summary::before {
+  content: "\25B8"; /* Unicode for triangle pointing right */
+  display: inline-block;
+  margin-right: 0.5em;
+  transition: transform 0.2s ease;
+  color: #64ffda;
+}
+
+/* Rotate arrow when section is open */
+details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+/* Change color on open */
+details[open] > summary {
+  color: #64ffda;
+}
+
