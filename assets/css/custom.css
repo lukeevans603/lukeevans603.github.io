@@ -97,8 +97,6 @@ button:hover {
 }
 
 /* Enhance collapsible CV sections */
-
-/* Style the summary element */
 details summary {
   font-weight: 600;
   cursor: pointer;
@@ -107,27 +105,79 @@ details summary {
   list-style: none;
 }
 
-/* Hide default arrow */
+/* Hero section styles inspired by Applied Ecology Lab */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #d7eaff;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #0077b6;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #005f8a;
+}
+
 details summary::-webkit-details-marker {
   display: none;
 }
 
-/* Add custom arrow indicator */
 details summary::before {
-  content: "\25B8"; /* Unicode for triangle pointing right */
+  content: "▸";
   display: inline-block;
   margin-right: 0.5em;
   transition: transform 0.2s ease;
   color: #64ffda;
 }
 
-/* Rotate arrow when section is open */
 details[open] > summary::before {
   transform: rotate(90deg);
 }
 
-/* Change color on open */
 details[open] > summary {
   color: #64ffda;
 }
-
