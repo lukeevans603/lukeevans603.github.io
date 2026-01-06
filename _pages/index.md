@@ -5,7 +5,7 @@ author_profile: true
 permalink: /
 ---
 
-<img src="{{ site.baseurl }}/images/hero_professional.png" alt="Professional abstract image representing remote sensing and ecology" style="width:100%; max-height:450px; object-fit:cover; margin-bottom: 2rem; border-radius: 4px;" />
+
 
 # Welcome!
 
