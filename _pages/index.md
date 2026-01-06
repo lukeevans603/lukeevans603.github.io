@@ -7,29 +7,26 @@ permalink: /
 
 
 
-# Welcome!
+<!-- Hero section inspired by the Applied Ecology Lab site -->
+<div class="hero" style="background-image: url('{{ site.baseurl }}/images/hero_topographic.png');">
+  <div class="hero-content">
+    <h1>Quantitative Ecology &amp; Remote Sensing</h1>
+    <p>Science supporting conservation &amp; management</p>
+    <a href="#welcome" class="btn">Learn&nbsp;More</a>
+  </div>
+</div>
 
-I am Dr.&nbsp;Luke&nbsp;J.&nbsp;Evans, a quantitative ecologist and conservation scientist at the University of 
-Florida and the U.S.&nbsp;Geological Survey. My work combines remote sensing, structured decision‑making and field 
-ecology to address biodiversity challenges—from protecting migratory shorebirds and crocodilians in Florida to managing 
-invasive species. Whether applying structured decision‑making to enhance conservation or building decision‑support tools
-for invasive species management, I'm passionate about turning science into action.
+<h2 id="welcome">Welcome!</h2>
 
-Before joining UF and USGS, I held postdoctoral appointments at Arizona State University, Stanford University and 
-Cardiff University, where I developed LiDAR‑based biodiversity metrics, built habitat connectivity models and 
-contributed to establishing a 400,000‑ha protected area in Malaysian Borneo. I earned my Ph.D., 
-M.Res. and B.Sc. in Ecology from Cardiff University, focusing on Bornean orangutan habitat use, remote‑sensing‑based 
-biodiversity mapping and botanical sciences.
+I am Dr.&nbsp;Luke&nbsp;J.&nbsp;Evans, a quantitative ecologist and conservation scientist at the University of Florida and the U.S.&nbsp;Geological Survey. My work combines remote sensing, structured decision‑making and field ecology to address biodiversity challenges—from protecting migratory shorebirds and crocodilians in Florida to managing invasive species. Whether applying structured decision‑making to enhance conservation or building decision‑support tools for invasive species management, I'm passionate about turning science into action.
 
-My research has been published in journals such as *Trends in Ecology & Evolution*, *Journal of Biogeography*, 
-*Frontiers in Ecology and the Environment*, *Global Ecology and Biogeography* and *Biological 
-Conservation*. According to Google Scholar, my work has been cited over 660 times and my h‑index
-is 13.
+Before joining UF and USGS, I held postdoctoral appointments at Arizona State University, Stanford University and Cardiff University, where I developed LiDAR‑based biodiversity metrics, built habitat connectivity models and contributed to establishing a 400,000‑ha protected area in Malaysian Borneo. I earned my Ph.D., M.Res. and B.Sc. in Ecology from Cardiff University, focusing on Bornean orangutan habitat use, remote‑sensing‑based biodiversity mapping and botanical sciences.
 
-<img src="{{ site.baseurl }}/images/ED1DFF1B-1320-40FE-97D4-B236D34AC9D1_1_105_c.jpeg" alt="Banner image" 
-style="width:100%; max-height:400px; object-fit: cover; margin-bottom: 2rem;" />
+My research has been published in journals such as *Trends in Ecology &amp; Evolution*, *Journal of Biogeography*, *Frontiers in Ecology and the Environment*, *Global Ecology and Biogeography* and *Biological Conservation*. According to Google Scholar, my work has been cited over 660 times and my h‑index is 13.
 
-Here's a live demo of my invasive species decision-support app:
+<img src="{{ site.baseurl }}/images/ED1DFF1B-1320-40FE-97D4-B236D34AC9D1_1_105_c.jpeg" alt="Fieldwork with instrumentation tower" style="width:100%; max-height:400px; object-fit: cover; margin: 2rem 0;" />
+
+Here's a live demo of my invasive species decision‑support app:
 
 <iframe src="https://cporosus24.shinyapps.io/FWC_tool_climate_scenarios/"
         width="100%"
