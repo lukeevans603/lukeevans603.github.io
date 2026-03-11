@@ -116,17 +116,19 @@ a:hover {
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 8px;
+  gap: 2px;
+  align-items: center;
 }
 
 .nav-links a {
   color: rgba(255,255,255,0.85);
-  font-size: 0.875rem;
+  font-size: 0.78rem;
   font-weight: 500;
-  padding: 8px 14px;
+  padding: 7px 10px;
   border-radius: 6px;
   transition: all var(--transition);
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px;
+  white-space: nowrap;
 }
 
 .nav-links a:hover {
@@ -1063,6 +1065,73 @@ a:hover {
   margin-top: 8px;
 }
 
+/* --- Opportunities --- */
+.opportunities-content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.opportunities-text p {
+  color: var(--color-text-light);
+  margin-bottom: 16px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.opportunity-areas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 28px 0;
+}
+
+.opportunity-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 20px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 0.92rem;
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+.opportunity-item i {
+  color: var(--color-primary);
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.opportunities-text .btn {
+  margin-top: 16px;
+}
+
+.nav-cv-btn {
+  background: var(--color-accent) !important;
+  color: #fff !important;
+  border-radius: 50px !important;
+  padding: 6px 16px !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--transition);
+}
+
+.nav-cv-btn:hover {
+  background: var(--color-accent-light) !important;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+.nav.scrolled .nav-cv-btn {
+  background: var(--color-accent) !important;
+  color: #fff !important;
+}
+
 /* --- Deforestation --- */
 .deforestation-grid {
   display: grid;
@@ -1301,6 +1370,10 @@ a:hover {
   }
 
   .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .opportunity-areas {
     grid-template-columns: 1fr;
   }
 }
