@@ -622,73 +622,12 @@
           </div>
         </div>
         <div class="contact-map">
-          <div class="research-map">
-            <svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" class="world-map-svg">
-              <!-- Simplified world map paths -->
-              <g fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="0.5">
-                <!-- North America -->
-                <path d="M120,80 L180,60 L220,70 L240,90 L230,120 L250,140 L240,160 L220,170 L200,200 L180,210 L160,200 L140,210 L130,190 L120,170 L100,160 L90,140 L100,120 L110,100Z"/>
-                <!-- South America -->
-                <path d="M200,230 L220,220 L240,230 L250,260 L260,290 L250,330 L230,360 L210,370 L190,350 L180,310 L185,280 L190,250Z"/>
-                <!-- Europe -->
-                <path d="M370,80 L400,70 L430,75 L440,90 L430,110 L410,120 L390,115 L380,100Z"/>
-                <!-- UK -->
-                <path d="M360,75 L370,70 L375,80 L368,88 L360,85Z"/>
-                <!-- Africa -->
-                <path d="M380,140 L420,130 L450,150 L460,190 L450,230 L440,270 L420,300 L390,310 L370,290 L360,250 L365,210 L370,170Z"/>
-                <!-- Asia -->
-                <path d="M450,60 L520,50 L580,55 L640,70 L680,90 L700,120 L690,150 L660,160 L620,150 L580,140 L540,130 L500,120 L470,110 L450,90Z"/>
-                <!-- Southeast Asia / Borneo region -->
-                <path d="M600,170 L630,165 L650,180 L640,200 L620,210 L600,200 L590,185Z"/>
-                <path d="M620,210 L640,205 L655,215 L650,230 L635,235 L620,225Z"/>
-                <!-- Australia -->
-                <path d="M640,280 L690,270 L730,280 L740,310 L720,340 L680,350 L650,330 L640,310Z"/>
-              </g>
-
-              <!-- Connection lines between research locations -->
-              <g stroke="rgba(196,149,58,0.3)" stroke-width="1" fill="none" stroke-dasharray="4,4">
-                <line x1="195" y1="168" x2="365" y2="82" class="conn-line conn-1"/>
-                <line x1="365" y1="82" x2="635" y2="210" class="conn-line conn-2"/>
-                <line x1="635" y1="210" x2="195" y2="168" class="conn-line conn-3"/>
-              </g>
-
-              <!-- Research location markers -->
-              <!-- Gainesville, FL -->
-              <g class="map-pin" style="animation-delay: 0s">
-                <circle cx="195" cy="168" r="12" fill="rgba(196,149,58,0.15)" class="ping"/>
-                <circle cx="195" cy="168" r="5" fill="#c4953a" stroke="#fff" stroke-width="1.5"/>
-                <text x="195" y="155" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="9" font-family="Inter, sans-serif">Gainesville</text>
-              </g>
-
-              <!-- Cardiff, UK -->
-              <g class="map-pin" style="animation-delay: 0.5s">
-                <circle cx="365" cy="82" r="12" fill="rgba(196,149,58,0.15)" class="ping"/>
-                <circle cx="365" cy="82" r="5" fill="#c4953a" stroke="#fff" stroke-width="1.5"/>
-                <text x="365" y="100" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="9" font-family="Inter, sans-serif">Cardiff</text>
-              </g>
-
-              <!-- Sabah, Borneo -->
-              <g class="map-pin" style="animation-delay: 1s">
-                <circle cx="635" cy="210" r="12" fill="rgba(196,149,58,0.15)" class="ping"/>
-                <circle cx="635" cy="210" r="5" fill="#c4953a" stroke="#fff" stroke-width="1.5"/>
-                <text x="635" y="197" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="9" font-family="Inter, sans-serif">Sabah, Borneo</text>
-              </g>
-
-              <!-- Arizona -->
-              <g class="map-pin" style="animation-delay: 1.5s">
-                <circle cx="160" cy="148" r="8" fill="rgba(196,149,58,0.1)" class="ping"/>
-                <circle cx="160" cy="148" r="3.5" fill="rgba(196,149,58,0.7)" stroke="#fff" stroke-width="1"/>
-                <text x="145" y="142" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="8" font-family="Inter, sans-serif">ASU</text>
-              </g>
-
-              <!-- Stanford -->
-              <g class="map-pin" style="animation-delay: 2s">
-                <circle cx="130" cy="145" r="8" fill="rgba(196,149,58,0.1)" class="ping"/>
-                <circle cx="130" cy="145" r="3.5" fill="rgba(196,149,58,0.7)" stroke="#fff" stroke-width="1"/>
-                <text x="118" y="139" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="8" font-family="Inter, sans-serif">Stanford</text>
-              </g>
-            </svg>
-            <p class="map-caption">Research locations spanning four continents</p>
+          <div class="satellite-panel">
+            <img src="assets/img/lidar-corridors.png" alt="LiDAR canopy height model showing elephant movement corridors in Sabah, Borneo" class="satellite-img" loading="lazy">
+            <div class="satellite-caption">
+              <span class="satellite-label">LiDAR Canopy Height &amp; Elephant Corridors</span>
+              <span class="satellite-location">Sabah, Malaysian Borneo</span>
+            </div>
           </div>
         </div>
       </div>

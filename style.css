@@ -1205,54 +1205,44 @@ a:hover {
   margin: 0 auto;
 }
 
-.research-map {
-  background: var(--color-bg-dark);
+.satellite-panel {
   border-radius: var(--radius-lg);
-  padding: 32px 24px 20px;
-  box-shadow: var(--shadow-lg);
   overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  background: var(--color-bg-dark);
 }
 
-.world-map-svg {
+.satellite-img {
   width: 100%;
   height: auto;
+  display: block;
+  opacity: 0.95;
 }
 
-.map-caption {
-  text-align: center;
+.satellite-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 20px;
+  background: linear-gradient(transparent, rgba(15, 26, 20, 0.9));
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.satellite-label {
   font-size: 0.78rem;
-  color: rgba(255,255,255,0.35);
-  margin-top: 12px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  font-weight: 600;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 0.3px;
 }
 
-.ping {
-  animation: ping 2.5s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-
-.map-pin:nth-child(4) .ping { animation-delay: 0s; }
-.map-pin:nth-child(5) .ping { animation-delay: 0.5s; }
-.map-pin:nth-child(6) .ping { animation-delay: 1s; }
-.map-pin:nth-child(7) .ping { animation-delay: 1.5s; }
-.map-pin:nth-child(8) .ping { animation-delay: 2s; }
-
-@keyframes ping {
-  0% { r: 5; opacity: 0.8; }
-  75%, 100% { r: 20; opacity: 0; }
-}
-
-.conn-line {
-  stroke-dashoffset: 500;
-  animation: draw-line 3s ease forwards;
-}
-
-.conn-1 { animation-delay: 0.5s; }
-.conn-2 { animation-delay: 1.5s; }
-.conn-3 { animation-delay: 2.5s; }
-
-@keyframes draw-line {
-  to { stroke-dashoffset: 0; }
+.satellite-location {
+  font-size: 0.72rem;
+  color: var(--color-accent-light);
+  letter-spacing: 0.5px;
 }
 
 /* --- Footer --- */
