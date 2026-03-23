@@ -201,6 +201,14 @@ document.addEventListener('DOMContentLoaded', () => {
           + data.profile.h_index;
       }
 
+      // Update hero stats with latest Scholar data
+      if (data.profile) {
+        const pubCount = document.getElementById('stat-publications');
+        const citCount = document.getElementById('stat-citations');
+        if (pubCount) pubCount.textContent = data.publications.length + '+';
+        if (citCount) citCount.textContent = data.profile.citations + '+';
+      }
+
       container.querySelectorAll('.pub-item').forEach((el, i) => {
         el.classList.add('fade-in');
         el.style.transitionDelay = `${Math.min(i * 0.08, 0.4)}s`;
