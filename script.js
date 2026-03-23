@@ -167,4 +167,46 @@ document.addEventListener('DOMContentLoaded', () => {
     heroObserver.observe(heroStats);
   }
 
+
+  // --- Dynamic publication loading from Google Scholar JSON ---
+  fetch('publications.json?' + Date.now())
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(data => {
+      const container = document.getElementById('pub-list-container');
+      if (!container || !data.publications || data.publications.length === 0) return;
+
+      const pubs = data.publications
+        .filter(p => p.year > 0)
+        .sort((a, b) => b.year - a.year);
+
+      container.innerHTML = pubs.map(pub => {
+        const journal = pub.journal
+          ? pub.journal + (pub.volume_info ? ', ' + pub.volume_info : '')
+          : '';
+        return `
+          <div class="pub-item">
+            <span class="pub-year">${pub.year}</span>
+            <div class="pub-details">
+              <p class="pub-authors">${pub.authors}</p>
+              <p class="pub-title">${pub.title}</p>
+              ${journal ? `<p class="pub-journal">${journal}</p>` : ''}
+            </div>
+          </div>`;
+      }).join('');
+
+      const statsEl = document.getElementById('scholar-stats');
+      if (statsEl && data.profile) {
+        statsEl.innerHTML = '<i class="fas fa-graduation-cap"></i> Google Scholar: '
+          + data.profile.citations + '+ citations &middot; h-index '
+          + data.profile.h_index;
+      }
+
+      container.querySelectorAll('.pub-item').forEach((el, i) => {
+        el.classList.add('fade-in');
+        el.style.transitionDelay = `${Math.min(i * 0.08, 0.4)}s`;
+        observer.observe(el);
+      });
+    })
+    .catch(() => { /* Silent fail — hardcoded publications remain visible */ });
+
 });
