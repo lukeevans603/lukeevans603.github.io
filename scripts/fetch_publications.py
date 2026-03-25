@@ -107,7 +107,7 @@ def main():
         title = article.get("title", "")
         authors_raw = article.get("authors", "")
         year_str = article.get("year", "")
-        citations = article.get("cited_by", {}).get("value", 0)
+        citations = article.get("cited_by", {}).get("value", 0) or 0
         link = article.get("link", "")
         journal = article.get("publication", "")
 
@@ -127,7 +127,7 @@ def main():
         })
 
     # Sort by year descending, then by citations descending
-    publications.sort(key=lambda p: (-p["year"], -p["citations"]))
+    publications.sort(key=lambda p: (-(p["year"] or 0), -(p["citations"] or 0)))
 
     output = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
