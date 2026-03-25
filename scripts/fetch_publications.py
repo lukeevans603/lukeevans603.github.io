@@ -1,53 +1,45 @@
 #!/usr/bin/env python3
-"""Fetch publications from Google Scholar and write to publications.json."""
+"""Fetch publications from Google Scholar via SerpAPI and write to publications.json."""
 
 import json
-import time
+import os
 import sys
 from datetime import datetime, timezone
+from urllib.request import urlopen, Request
+from urllib.parse import urlencode
 
 AUTHOR_ID = "9jYlHVgAAAAJ"
 OUTPUT_FILE = "publications.json"
-MAX_RETRIES = 3
+SERPAPI_BASE = "https://serpapi.com/search.json"
 
 
-def fetch_with_retry():
-    """Fetch author data from Google Scholar with retry logic."""
-    from scholarly import scholarly
+def serpapi_request(params):
+    """Make a request to SerpAPI and return parsed JSON."""
+    api_key = os.environ.get("SERPAPI_KEY")
+    if not api_key:
+        print("ERROR: SERPAPI_KEY environment variable not set.")
+        sys.exit(1)
 
-    # Try using a free proxy to avoid rate limiting
-    try:
-        from fp.fp import FreeProxy
-        proxy = FreeProxy(rand=True, timeout=5).get()
-        scholarly.use_proxy(http=proxy, https=proxy)
-        print(f"Using proxy: {proxy}")
-    except Exception as e:
-        print(f"Proxy setup failed, proceeding without proxy: {e}")
+    params["api_key"] = api_key
+    params["engine"] = "google_scholar_author"
+    url = f"{SERPAPI_BASE}?{urlencode(params)}"
 
-    for attempt in range(1, MAX_RETRIES + 1):
-        try:
-            print(f"Attempt {attempt}/{MAX_RETRIES}: Searching for author...")
-            author = scholarly.search_author_id(AUTHOR_ID)
-            print("Filling author profile...")
-            author = scholarly.fill(author, sections=["basics", "indices", "publications"])
-            return author
-        except Exception as e:
-            print(f"Attempt {attempt} failed: {e}")
-            if attempt < MAX_RETRIES:
-                wait = 2 ** attempt * 5
-                print(f"Waiting {wait}s before retry...")
-                time.sleep(wait)
-            else:
-                raise
+    req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read().decode("utf-8"))
 
 
-def format_authors(authors_str):
+def format_authors(authors_raw):
     """Bold any author name containing 'Evans'."""
-    if not authors_str:
+    if not authors_raw:
         return ""
-    authors = authors_str.split(", ")
+    if isinstance(authors_raw, str):
+        authors_list = [a.strip() for a in authors_raw.split(",")]
+    else:
+        authors_list = authors_raw
+
     formatted = []
-    for a in authors:
+    for a in authors_list:
         a = a.strip()
         if "Evans" in a:
             formatted.append(f"<strong>{a}</strong>")
@@ -57,52 +49,70 @@ def format_authors(authors_str):
 
 
 def main():
-    from scholarly import scholarly
+    print("Fetching publications from Google Scholar via SerpAPI...")
 
-    print("Fetching publications from Google Scholar...")
-    try:
-        author = fetch_with_retry()
-    except Exception as e:
-        print(f"ERROR: All attempts failed: {e}")
-        sys.exit(1)
+    # First request gives profile info + first batch of articles
+    data = serpapi_request({
+        "author_id": AUTHOR_ID,
+        "start": "0",
+        "num": "100",
+        "sort": "pubdate",
+    })
 
-    # Extract profile-level stats
+    # Extract profile stats from cited_by table
+    cited_by = data.get("cited_by", {})
+    table = cited_by.get("table", [])
+
+    citations_all = 0
+    h_index = 0
+    i10_index = 0
+    for row in table:
+        if "citations" in row:
+            citations_all = row["citations"].get("all", 0)
+        if "h_index" in row:
+            h_index = row["h_index"].get("all", 0)
+        if "i10_index" in row:
+            i10_index = row["i10_index"].get("all", 0)
+
     profile = {
-        "citations": author.get("citedby", 0),
-        "h_index": author.get("hindex", 0),
-        "i10_index": author.get("i10index", 0),
+        "citations": citations_all,
+        "h_index": h_index,
+        "i10_index": i10_index,
     }
     print(f"Profile stats: {profile}")
 
-    # Extract publications
+    # Collect all articles (paginate if more than 100)
+    all_articles = data.get("articles", [])
+    print(f"First page: {len(all_articles)} articles")
+
+    start = 100
+    while len(all_articles) >= start:
+        print(f"Fetching more articles starting at {start}...")
+        more_data = serpapi_request({
+            "author_id": AUTHOR_ID,
+            "start": str(start),
+            "num": "100",
+            "sort": "pubdate",
+        })
+        batch = more_data.get("articles", [])
+        if not batch:
+            break
+        all_articles.extend(batch)
+        print(f"  Got {len(batch)} more (total: {len(all_articles)})")
+        start += 100
+
+    # Process publications
     publications = []
-    for pub in author.get("publications", []):
-        try:
-            filled = scholarly.fill(pub)
-        except Exception:
-            filled = pub
-
-        bib = filled.get("bib", {})
-        title = bib.get("title", "")
-        authors_raw = bib.get("author", "")
-        year = bib.get("pub_year", "")
-        journal = bib.get("journal", bib.get("venue", bib.get("booktitle", "")))
-        volume = bib.get("volume", "")
-        number = bib.get("number", "")
-        pages = bib.get("pages", "")
-        citations = filled.get("num_citations", 0)
-        url = filled.get("pub_url", "")
-
-        volume_info = ""
-        if volume:
-            volume_info = volume
-            if number:
-                volume_info += f"({number})"
-            if pages:
-                volume_info += f", {pages}"
+    for article in all_articles:
+        title = article.get("title", "")
+        authors_raw = article.get("authors", "")
+        year_str = article.get("year", "")
+        citations = article.get("cited_by", {}).get("value", 0)
+        link = article.get("link", "")
+        journal = article.get("publication", "")
 
         try:
-            year_int = int(year)
+            year_int = int(year_str) if year_str else 0
         except (ValueError, TypeError):
             year_int = 0
 
@@ -111,11 +121,12 @@ def main():
             "authors": format_authors(authors_raw),
             "year": year_int,
             "journal": journal,
-            "volume_info": volume_info,
+            "volume_info": "",
             "citations": citations,
-            "url": url,
+            "url": link,
         })
 
+    # Sort by year descending, then by citations descending
     publications.sort(key=lambda p: (-p["year"], -p["citations"]))
 
     output = {
