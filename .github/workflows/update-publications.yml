@@ -20,12 +20,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install scholarly free-proxy
-
       - name: Fetch publications
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python scripts/fetch_publications.py
-        continue-on-error: true
 
       - name: Commit and push if changed
         run: |
