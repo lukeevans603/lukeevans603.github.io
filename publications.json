@@ -1,55 +1,19 @@
 {
-  "last_updated": "2026-03-30T07:20:01.965389+00:00",
+  "last_updated": "2026-04-06T07:22:20.261319+00:00",
   "profile": {
-    "citations": 820,
-    "h_index": 13,
-    "i10_index": 16
+    "citations": 801,
+    "h_index": 14,
+    "i10_index": 15
   },
   "publications": [
-    {
-      "title": "Counting particles in cryo-electron microscopy may result in incorrect population estimates",
-      "authors": "<strong>L Evans</strong>, L Dingeldein, R Covino, MA Gilles, E Thiede, P Cossio",
-      "year": 2026,
-      "journal": "Communications Biology 9 (1), 421, 2026",
-      "volume_info": "",
-      "citations": 0,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:dhFuZR0502QC"
-    },
-    {
-      "title": "BPS2026–Parsimonious recovery of cryo-EM ensemble probabilities",
-      "authors": "<strong>L Evans</strong>, R Gower, A Rangan, P Cossio",
-      "year": 2026,
-      "journal": "Biophysical Journal 125 (4), 120a, 2026",
-      "volume_info": "",
-      "citations": 0,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:qUcmZB5y_30C"
-    },
     {
       "title": "Reimagining species on the move across space and time",
       "authors": "AL Fredston, MW Tingley, MHC Neate-Clegg, <strong>LJ Evans</strong>, LH Antão, ...",
       "year": 2025,
       "journal": "Trends in ecology & evolution 40 (7), 629-638, 2025",
       "volume_info": "",
-      "citations": 13,
+      "citations": 14,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:mVmsd5A6BfQC"
-    },
-    {
-      "title": "Amortized template matching of molecular conformations from cryoelectron microscopy images using simulation-based inference",
-      "authors": "L Dingeldein, D Silva-Sánchez, <strong>L Evans</strong>, E D’Imprima, N Grigorieff, ...",
-      "year": 2025,
-      "journal": "Proceedings of the National Academy of Sciences 122 (23), e2420158122, 2025",
-      "volume_info": "",
-      "citations": 13,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:-f6ydRqryjwC"
-    },
-    {
-      "title": "Sharp error estimates for target measure diffusion maps with applications to the committor problem",
-      "authors": "S Sule, <strong>L Evans</strong>, M Cameron",
-      "year": 2025,
-      "journal": "Applied and Computational Harmonic Analysis, 101803, 2025",
-      "volume_info": "",
-      "citations": 3,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:ZeXyd9-uunAC"
     },
     {
       "title": "Invasion risk posed by the pet trade",
@@ -61,48 +25,12 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:Wp0gIr-vW9MC"
     },
     {
-      "title": "Counting particles could give wrong probabilities in Cryo-Electron Microscopy",
-      "authors": "<strong>L Evans</strong>, L Dingeldein, R Covino, MA Gilles, E Thiede, P Cossio",
-      "year": 2025,
-      "journal": "bioRxiv, 2025.03. 27.644168, 2025",
-      "volume_info": "",
-      "citations": 3,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:QIV2ME_5wuYC"
-    },
-    {
-      "title": "Error Breakdown and Sensitivity Analysis of Dynamical Quantities in Markov State Models",
-      "authors": "Y Tuchkov, <strong>L Evans</strong>, SM Hanson, EH Thiede",
-      "year": 2025,
-      "journal": "Journal of Chemical Theory and Computation 21 (23), 12304-12316, 2025",
-      "volume_info": "",
-      "citations": 2,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:7PzlFSSx8tAC"
-    },
-    {
-      "title": "Cryo-EM images are intrinsically low dimensional",
-      "authors": "<strong>L Evans</strong>, OV Murad, L Dingeldein, P Cossio, R Covino, M Meila",
-      "year": 2025,
-      "journal": "PRX Life 3 (3), 033025, 2025",
-      "volume_info": "",
-      "citations": 2,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:hC7cP41nSMkC"
-    },
-    {
-      "title": "BPS2025-Why counting particles can give wrong probabilities in cryo-EM",
-      "authors": "<strong>L Evans</strong>, L Dingeldein, MA Gilles, EH Thiede, P Cossio",
-      "year": 2025,
-      "journal": "Biophysical Journal 124 (3), 488a, 2025",
-      "volume_info": "",
-      "citations": 0,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:IWHjjKOFINEC"
-    },
-    {
       "title": "Proximal microclimate: Moving beyond spatiotemporal resolution improves ecological predictions",
       "authors": "DH Klinges, JA Baecher, JJ Lembrechts, IMD Maclean, J Lenoir, ...",
       "year": 2024,
       "journal": "Global Ecology and Biogeography 33 (9), e13884, 2024",
       "volume_info": "",
-      "citations": 37,
+      "citations": 38,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:qxL8FJ1GzNcC"
     },
     {
@@ -120,7 +48,7 @@
       "year": 2021,
       "journal": "Global Ecology and Conservation 28, e01684, 2021",
       "volume_info": "",
-      "citations": 132,
+      "citations": 133,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:hqOjcs7Dif8C"
     },
     {
@@ -147,7 +75,7 @@
       "year": 2020,
       "journal": "Conservation Biology 34 (4), 934-942, 2020",
       "volume_info": "",
-      "citations": 54,
+      "citations": 53,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:roLk4NBRz8UC"
     },
     {
@@ -156,7 +84,7 @@
       "year": 2018,
       "journal": "Biological Coservation 217, 289-310, 2018",
       "volume_info": "",
-      "citations": 176,
+      "citations": 177,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:ufrVoPGSRksC"
     },
     {
@@ -192,7 +120,7 @@
       "year": 2017,
       "journal": "PLoS ONE 12 (10), e0184804, 2017",
       "volume_info": "",
-      "citations": 19,
+      "citations": 20,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:WF5omc3nYNoC"
     },
     {
@@ -248,15 +176,6 @@
       "volume_info": "",
       "citations": 15,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:2osOgNQ5qMEC"
-    },
-    {
-      "title": "Error Analysis of Target Measure Diffusion Maps on R d and applications to Transition Path Theory",
-      "authors": "M Cameron, <strong>L Evans</strong>, S Sule",
-      "year": 0,
-      "journal": "",
-      "volume_info": "",
-      "citations": 0,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:9ZlFYXVOiuMC"
     }
   ]
 }
