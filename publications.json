@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-03T09:31:17.400524+00:00",
+  "last_updated": "2026-08-10T07:18:35.941441+00:00",
   "profile": {
-    "citations": 868,
+    "citations": 872,
     "h_index": 14,
     "i10_index": 15
   },
@@ -48,7 +48,7 @@
       "year": 2021,
       "journal": "Global Ecology and Conservation 28, e01684, 2021",
       "volume_info": "",
-      "citations": 150,
+      "citations": 153,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:hqOjcs7Dif8C"
     },
     {
@@ -88,6 +88,15 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:ufrVoPGSRksC"
     },
     {
+      "title": "Protected area management priorities crucial for the future of Bornean elephants",
+      "authors": "<strong>LJ Evans</strong>, GP Asner, B Goossens",
+      "year": 2018,
+      "journal": "Biological Conservation, 2018",
+      "volume_info": "",
+      "citations": 50,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:_FxGoFyzp5QC"
+    },
+    {
       "title": "Bearded pig (Sus barbatus) utilisation of a fragmented forest-oil palm landscape in Sabah, Malaysian Borneo",
       "authors": "K Love, D Kurz, I Vaughan, A Ke, <strong>LJ Evans</strong>, B Goossens",
       "year": 2018,
@@ -95,15 +104,6 @@
       "volume_info": "",
       "citations": 50,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:eQOLeE2rZwMC"
-    },
-    {
-      "title": "Protected area management priorities crucial for the future of Bornean elephants",
-      "authors": "<strong>LJ Evans</strong>, GP Asner, B Goossens",
-      "year": 2018,
-      "journal": "Biological Conservation, 2018",
-      "volume_info": "",
-      "citations": 49,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=9jYlHVgAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=9jYlHVgAAAAJ:_FxGoFyzp5QC"
     },
     {
       "title": "Combining drones and satellite tracking as an effective tool for informing policy change in riparian habitats: a proboscis monkey case study",
