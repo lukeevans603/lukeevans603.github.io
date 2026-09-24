@@ -1478,3 +1478,46 @@ a:hover {
     min-width: auto;
   }
 }
+
+/* ===== Extension & Outreach ===== */
+.ext-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+.ext-card {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+}
+.ext-card > i {
+  display: block;
+  color: var(--color-accent);
+  font-size: 1.5rem;
+  margin-bottom: 0.9rem;
+}
+.ext-card h4 {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  margin: 0 0 0.75rem;
+}
+.ext-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+.ext-card li {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--color-text-light);
+}
+.ext-card li strong {
+  color: var(--color-text);
+}
+@media (max-width: 900px) {
+  .ext-grid { grid-template-columns: 1fr; }
+}
