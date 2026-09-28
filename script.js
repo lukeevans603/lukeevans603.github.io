@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       let target;
       if (hasDollar) {
-        target = parseInt(text.replace(/[$K+,]/g, ''));
+        target = parseInt(text.replace(/[~$K+,]/g, ''));
       } else {
         target = parseInt(text.replace(/[^0-9]/g, ''));
       }
